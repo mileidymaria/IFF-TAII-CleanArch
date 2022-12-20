@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "build-and-start": "tsc | node dist/index.js",
-    "build-and-test": "tsc | mocha dist/test/*.js"
+    "build-and-test": "tsc | cd dist/test | ls -a | mocha dist/test/*.spec.js"
   },
   "author": "",
   "license": "ISC",
