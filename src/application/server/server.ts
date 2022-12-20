@@ -17,6 +17,7 @@ export class Server{
     }
 
     private init(){
+        
         const app: Express = express();
         const port = process.env.PORT;
         
